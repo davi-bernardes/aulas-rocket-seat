@@ -6,11 +6,11 @@ function toogleMode() {
 
    if(html.classList.contains("light")) {
 
-    img.setAttribute("src","./assets/images/avatar-light.png")
+    img.setAttribute("src","./assets/avatar-light.png")
     img.setAttribute("alt","texto do modo ligth")
 } else{
 
-    img.setAttribute("src","./assets/images/avatar.png")
+    img.setAttribute("src","./assets/avatar.png")
     img.setAttribute("alt","texto quando o modo não é ligth")
 }
 }
